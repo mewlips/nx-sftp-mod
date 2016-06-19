@@ -1,0 +1,10 @@
+button|Start SFTP server|/opt/usr/apps/nx-sftp-mod/sshd.sh
+button|Stop SFTP server|/opt/usr/apps/nx-sftp-mod/off_sshd.sh
+button|Change password|/opt/usr/apps/nx-sftp-mod/change_password.sh
+button|Add SSH key|/opt/usr/apps/nx-sftp-mod/add_ssh_key.sh
+button|Open Wi-Fi Settings|/opt/usr/apps/nx-sftp-mod/externals/poker /tmp/var/run/memory/ap_setting/request_type 0x0:2900000001000000
+button|Show status|status.sh
+button|About|/opt/usr/apps/nx-sftp-mod/about.sh
+button|Uninstall|/opt/usr/apps/nx-sftp-mod/uninstall.sh
+button|Back|/opt/usr/apps/nx-sftp-mod/externals/mod_gui apps
+button|Close|
