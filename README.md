@@ -15,12 +15,13 @@
 
 ## How To Use
 
-- When you double-clicking the AEL button will bring up nx-sftp-mod menu.
+- Press the EV + MOBILE buttons to run the app launcher. Then select the 'SFTP Server' from the menu.
  - 'Start SFTP server'
  - 'Open Wi-Fi Settings'
  - 'Change password'
  - 'Show status'
- - Connect to the sftp server running on your camera via SFTP client like filezilla.
+
+- Use sftp clients to transfer files.
 
 ## License
 
