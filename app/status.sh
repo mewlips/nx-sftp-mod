@@ -24,9 +24,11 @@ if [ "$sshd_started" != 0 ] || [ "$ip" == "" ]; then
     exit
 fi
 
-sdcard=sftp://root@$ip/sdcard
-opt_usr=sftp://root@$ip/opt/usr
+sdcard="sftp://root@$ip/sdcard"
+sdcard2="root@$ip:/sdcard"
+opt_usr="sftp://root@$ip/opt/usr"
+opt_usr2="root@$ip:/opt/usr"
 
-sshfs="\$ sshfs root@$ip/sdcard mnt"
+use="Use scp/sftp/sshfs clients to transfer files."
 
-popup_back_or_close "SFTP Server is running.<br>[On SFTP Client]<br>$sdcard<br>$opt_usr<br>[On Linux]<br>$sshfs"
+popup_back_or_close "[ SFTP Server is running. ]<br$sdcard<br>$sdcard2<br>$opt_usr<br>$opt_usr2<br>$use"

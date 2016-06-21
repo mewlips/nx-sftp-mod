@@ -14,7 +14,7 @@ if [ $? -eq 1 ]; then
     # get in high priority mode
   /usr/bin/renice -n -10 --pid $$
     # finally run the user interface
-  /opt/usr/apps/nx-sftp-mod/externals/mod_gui /opt/usr/apps/nx-sftp-mod/main
+  /opt/usr/apps/nx-sftp-mod/externals/mod_gui apps
   sync
     # return to EVF mode
   if [ $isEVF -eq 1 ]; then

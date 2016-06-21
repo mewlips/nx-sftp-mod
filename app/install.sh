@@ -74,7 +74,7 @@ mkdir -p $JAIL_PATH/sdcard
 
 # copy files
 cp -rv $INSTALL_PATH/* $APP_PATH
-mv $APP_PATH/AEL_AEL.sh /opt/usr/nx-on-wake/
+mv $APP_PATH/EV_MOBILE.sh /opt/usr/nx-on-wake/
 
 # ========= clean up ========
 rm -rfv $INSTALL_PATH
@@ -84,4 +84,4 @@ rm -rfv $EXT_APP_PATH
 
 sync; sync; sync;
 killall popup_timeout
-$APP_PATH/externals/popup_ok "Installation completed!<br><br>When you dobule-clicking the [AEL] button will bring up nx-sftp-mod menu.<br>To change the password,<br>select 'Change password' from the menu.<br>" "YES" "OK"
+$APP_PATH/externals/popup_ok "Installation completed!<br><br>Press the EV + MOBILE buttons<br>to run the app launcher.<br>To change the password,<br>select 'Change password' from the menu.<br>" "" "OK"
