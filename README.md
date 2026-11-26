@@ -26,3 +26,12 @@
 ## License
 
 GPL-3
+
+## Emergency Recovery (Samsung NX500)
+
+If installing prerequisites such as `nx-on-wake` leaves your **Samsung NX500** soft-bricked and unable to boot normally, you can enter the built-in firmware recovery mode without disassembly (verified on NX500; **not verified on NX1**):
+
+1. Put an official, unmodified `nx500.bin` firmware file on the root of a clean FAT32 SD card and insert it.
+2. Remove the battery, flip the rear display fully upward into the selfie position, and reinsert the battery.
+3. Hold **MOBILE (Wi-Fi) + AEL + full Shutter** simultaneously, then switch the camera **ON**.
+4. When **Recovery Mode** appears, release the buttons and **hold the shutter button** to flash `nx500.bin` (keep power connected until `Update Finish`).
